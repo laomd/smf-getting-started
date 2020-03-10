@@ -3,4 +3,6 @@ project(smf-getting-started-cpp VERSION 0.0.1 LANGUAGES CXX)
 # set(CMAKE_VERBOSE_MAKEFILE ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 add_subdirectory(src)
+
+enable_testing()
 add_subdirectory(python)

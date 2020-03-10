@@ -3,15 +3,15 @@
 
 namespace smf_gen.demo;
 
-table Request {
+table DemoRequest {
   name: string;
 }
 
-table Response {
+table DemoResponse {
   name: string;
 }
 
 
 rpc_service SmfStorage {
-  Get(Request):Response;
+  Get(DemoRequest):DemoResponse;
 }

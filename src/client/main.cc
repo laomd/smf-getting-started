@@ -56,7 +56,7 @@ struct method_callback {
 struct generator {
   smf::rpc_envelope operator()(
     const boost::program_options::variables_map &cfg) {
-    smf::rpc_typed_envelope<smf_gen::demo::Request> req;
+    smf::rpc_typed_envelope<smf_gen::demo::DemoRequest> req;
     req.data->name = kPayload1Kbytes;
     return req.serialize_data();
   }

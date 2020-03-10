@@ -1,0 +1,5 @@
+# !/bin/bash
+
+export PYTHONPATH="$PYTHONPATH:$FBS_PATH"
+echo "$PYTHONPATH"
+python3 $@
