@@ -1,3 +1,6 @@
 [submodule "src/smf"]
 	path = src/smf
 	url = https://github.com/smfrpc/smf.git
+[submodule "src/smfrpc"]
+	path = src/smfrpc
+	url = https://github.com/laomd/smfrpc/
